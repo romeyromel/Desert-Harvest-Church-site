@@ -1,0 +1,192 @@
+
+
+
+
+
+
+/* Large tablet to 1200px (widths smaller than the 1140 px row)*/
+@media only screen and (max-width: 1200px){
+   
+    body{
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        
+    }
+    
+    sticky{
+        height: 13;
+        width: 100%;
+        
+    }
+    
+}
+    
+    
+
+
+
+/* For small tablet to large tablet: from 768 to 1023px */
+@media only screen and (max-width: 1023px){
+       body{
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        
+    }
+    
+    .sticky{
+        height: 65px;
+        width: 100%;
+        
+    }
+ 
+ 
+ 
+    .small-logo{
+      
+     height:130px;
+    padding-left: 2%;
+    margin-right:2%;
+  
+}
+    
+    .icons{
+        height: 19px;
+        margin-top: 120px;
+        margin-left: 20%;
+        padding-left:5%;
+        
+    }   
+ 
+ .main-nav div {
+   display: inline-block;
+     height: 10px;
+    margin: -110px 0px 20px 20px;
+   padding-left: 0px 0px 0px 0px;
+   
+}
+  div.image{
+        height:75%;
+                                        
+    
+}
+
+
+
+
+/* For small phones to small tablets:from 481 to 767 px */
+@media only screen and (max-width: 767px){
+           body{
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        
+    }
+    
+    .sticky{
+        height: 65px;
+        width: 100%;
+        
+    }
+ 
+ 
+ 
+    .small-logo{
+      display:none;
+     height:80px;
+    padding-left: 2%;
+    margin-right:2%;
+  
+}
+    
+    .icons{
+        height: 19px;
+        margin-top: 120px;
+        margin-left: 20%;
+        padding-left:5%;
+        
+    }   
+ 
+ .main-nav div {
+   display: inline-block;
+     height: 10px;
+    margin: -110px 0px 20px 20px;
+   padding-left: 0px 0px 0px 0px;
+   
+}
+  div.image{
+        height:50%;
+                                                                                                              
+        
+    } 
+ 
+    }
+
+
+   
+    
+    /*** This forces the  link titles to stack instead of side by side ***/
+            
+    
+
+    
+          
+    
+}
+
+/*  For small phones : from 0 to 480 px */
+@media only screen and (max-width: 480px){
+         body{
+        width: 100%;
+        
+    }
+    header{
+        width: 100%;
+        
+    }
+    
+    .sticky{
+        height: 65px;
+        width: 100%;
+        
+    }
+ 
+ 
+ 
+    .small-logo{
+      display:none;
+     height:80px;
+    padding-left: 2%;
+    margin-right:2%;
+  
+}
+    
+    .icons{
+        height: 5px;
+        margin-top: 120px;
+        margin-left: 20%;
+        padding-left:5%;
+        
+    }   
+ 
+ .main-nav div {
+   display: inline-block;
+     height: 10px;
+    margin: -110px 0px 20px 20px;
+   padding-left: 0px 0px 0px 0px;
+   
+}
+  div.image{
+        height:10%;
+        margin-right: -20%;                                
+    
+}   
+
+

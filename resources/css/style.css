@@ -1,0 +1,583 @@
+*{
+   margin: 0;
+   padding: 0;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+
+}
+
+ 
+
+
+
+html{
+   
+    background-color:rgb(20, 136, 141);
+    font-family: 'Lato', 'Arial' ,sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    color: azure;
+   text-rendering: optimizeLegibility;
+    
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+.clearfix{zoom:1}
+.clearfix:after{
+      content: '.';
+      clear: both;
+      display: block;
+      height: 0;
+      visibility: hidden;
+   
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+section{
+  padding: 80px 0;
+ 
+ 
+}
+
+
+.Container{
+  position: relative;
+    right:10px;  
+  
+    z-index: 1000;
+    
+}
+
+
+
+
+.box{
+   padding: 1%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/******* MAIN NAV ************/
+
+
+
+
+/* THIS METHOD CONTROLS THE OVERALL NAV  */
+/* */
+.main-nav{
+   /* to delete bullet point on nav bar */
+    text-decoration: none;
+    color: azure;
+   list-style: none;
+    display: flex;
+    margin-top: 0px;
+    float: right;
+    
+   
+}
+
+/* THIS METHOD CONTROLS NAV LIST SECTION */
+
+
+.main-nav li a:link,
+.main-nav li a:visted{
+     
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #e67e22;
+    
+    
+}
+
+
+
+
+
+.main-nav div {
+    
+    margin: 0px 0px -20px 20px;
+   padding-left: 0px 0px 0px 0px;
+   
+}
+
+
+
+
+
+
+
+
+nav ul li{
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+.icons {
+    height: 30px;
+    width:auto;
+    margin-top: 85px;
+    margin-left: 15px;
+     -webkit-transform: scale(1.30);
+    transform: scale(1.30);
+    -webkit-transition: -webkit-transform 0.5s;
+   transition: -webkit-transform 0.5s;
+   transition: transform 0.5s;
+   transition: transform 0.5s, -webkit-transform 0.5s; opacity: 0.5s;
+   cursor: pointer;
+ /* removed underline from icons*/
+   display: block;
+   
+}
+
+.icons:hover{
+    -webkit-transform: scale(1.80);
+         transform: scale(1.80);
+   
+
+}
+
+
+/****** EDIT ICONS ******/
+
+
+.home {
+    margin-right: 10px;
+    
+}
+
+.about-us{
+    
+   margin-left: 5px; 
+    
+}
+
+.book{
+    
+  margin-left: 8px;   
+    
+}
+
+
+.mega-phone{
+    
+   margin-left: 25px;
+    
+}
+
+.calendar{
+    
+   margin-left: 10px; 
+    
+}
+
+.email{
+    
+   margin-left: 5px;  
+    
+}
+
+/******** STICKY NAV BAR  ********/
+
+.sticky{
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 13%;
+ width: 100%;
+ background-color:rgb(16, 115, 119);
+ /* horizontal  verticle blur  color*/
+ box-shadow: 0 2px 2px #1d6167;
+ z-index: 9999;
+ 
+}
+
+.main-nav div {
+    
+    margin: -60px 0px 20px 20px;
+   padding-left: 0px 0px 0px 0px;
+   
+}
+
+.small-logo{
+    height:125px;
+    padding-left: 90px;
+    padding-top: 57px;
+    margin-top: -45px;
+}
+
+
+.sticky .main-nav{
+   /* to delete bullet point on nav bar */
+    text-decoration: none;
+    color: azure;
+   list-style: none;
+    display: flex;
+    margin-top: 0px;
+    float: right;
+    
+   
+}
+
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visted{
+     padding: 8px;
+     color: beige;
+  
+    
+}
+
+
+
+
+/********    ********/
+
+
+
+
+div.image{
+   content:url(img/desert-title-min.png);
+   height: 520px;
+    width: auto;
+    margin-top: 50px;
+  padding-top: 130px;
+ padding-left: 250px;
+
+  
+}
+
+
+
+
+
+header{
+    background-image:linear-gradient(rgba(46, 155, 234, 0), rgba(245, 133, 20, 0.63)), url(img/desert-harvest-back-min.jpg);
+    background-size:cover;
+    margin-top:55px; 
+    height:127vh;
+    z-index: 500;
+    background-attachment: fixed;
+    
+    
+}
+
+.small-logo{
+    padding-left: 90px;
+    padding-top: 57px;
+    
+}
+
+
+.edify-text{
+    
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Lato', 'Arial' ,sans-serif;
+    font-weight: 100;
+    color: azure;
+    letter-spacing: 1px;
+    word-spacing: 70px;
+    margin-top: 55px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.section-bar{
+    width:100%;
+    height: 2px;
+    background-color: #e67e22;
+    margin-top: 42px;
+}
+
+
+.section-features{
+        margin:60px 80px 10px 30px;
+        border-top:22px;
+        padding:30px 30px 20px 0px;
+        word-spacing: 5px;
+        
+
+}
+
+.about-us-text h2{
+   display:flex;
+    float: right;
+   vertical-align: middle;
+    margin-right: -14%;
+    margin-top: 115px;
+    text-shadow: 2px 2px 2px black;
+ 
+
+}
+
+
+.section-about-us{
+ height: 400px;
+    width: 98.5%;
+    background-image:linear-gradient(rgba(242, 134, 8, 0.65), rgb(245, 132, 20)), url(img/wheatfield-min.jpg);
+    background-size:100%;
+    background-position:center ;
+    margin:10px 10px 60px 10px;
+ 
+}
+
+ blockquote{
+     padding: 5%;
+     font-style: italic;
+     line-height: 155%;
+}
+
+
+blockquote h2{
+  margin-left: 60px;
+ 
+}
+
+.Pastor-Wife{
+  
+    width: 250px;
+    height: 250px;
+    background-image: url(img/Pastor&Wife-min.JPG);
+    background-size:156%;
+    background-position:center;
+ 
+    border-radius:;
+   margin-top: 22px;
+   margin-right: 10px;
+  margin-left: 80px;
+   margin-bottom: 12px;
+   vertical-align: middle; 
+}
+
+
+
+
+.Women-Ministry{
+ 
+   
+    width: 250px;
+    height: 250px;
+    background-image: url(img/Women-Ministry-min.JPG);
+    background-repeat: no-repeat;
+    background-size:105%;
+    background-position:center right ;
+   margin-right: 10px;
+   margin-left: 82px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   vertical-align: middle;
+}
+
+.section-ministry {
+    height: 400px;
+    width: 98.5%;
+    background-image:linear-gradient(rgba(242, 134, 8, 0.65), rgb(245, 132, 20)), url(img/bible-min.jpg);
+    background-size:120%;
+    background-position:center bottom;
+    margin:10px 10px 60px 10px;
+   
+}
+
+
+.ministry-text h2{
+    margin-left: 42%;
+    margin-top: 95px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.schedule-text h3{
+margin-left: 40% 
+ 
+}
+
+.list-1 li{
+ margin:0px 4px 1px 65%;
+ 
+}
+
+
+.list-2 li{
+ margin: 1px 4% 0px 0px;
+ list-style: none;
+ 
+ 
+}
+
+
+.announcements-text h2{
+     margin: 111px 50px 30px 89%;
+    text-shadow: 2px 2px 2px black;
+}
+
+.spring-text h1{
+margin-left: 37%;
+ 
+ 
+}
+
+
+
+
+.section-Annoucements{
+      height: 400px;
+    width: 98.5%;
+    background-image:linear-gradient(rgba(242, 134, 8, 0.65), rgb(245, 132, 20)), url(img/mic-min.jpg);
+    background-size:100%;
+    background-position:center top;
+    margin:10px 10px 60px 10px;
+ 
+ 
+}
+
+.section-calendar{
+ height: 300px;
+    width: 98.5%;
+    background-image:linear-gradient(rgba(242, 161, 8, 0.69), rgba(245, 72, 20, 0.79)), url(img/calendar-min.jpg);
+    background-size:100%;
+    background-position:center top;
+    margin:10px 10px 60px 7px;
+ 
+ 
+ 
+}
+
+.cal-text h3{
+  margin-left: 12%;
+ 
+ 
+}
+
+.calendar-text h2{
+ margin: 55px 50px 30px 96%;
+  text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+.section-contact-us{
+   
+    height:300px;
+    width:100%;
+    background-image:linear-gradient(rgba(242, 161, 8, 0.92), rgba(245, 72, 20, 0.94)), url(img/phones-min.jpg);
+    background-size:100%;
+    background-position:right;
+    margin:10px 10px 60px 7px;
+    position: relative;
+ 
+}
+
+
+.contact-us-text {
+  margin: 70px 50px 30px -0%;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+ 
+}
+
+
+.contact-us-text h2{
+   margin-top: 65px;
+  margin-left: 20px;
+}
+
+
+
+.church-text h2{
+   
+ padding: 0;
+ margin: 0px 0px 30px 40%;
+ 
+ 
+}
+
+.address-text p,
+              h3{
+   margin-left:40%;
+}
+
+.section-footer{
+ height:300px;
+ background-image:linear-gradient(rgba(242, 161, 8, 0.92), rgba(245, 72, 20, 0.94)), url(img/footer-min.jpg);
+ background-size:100%;
+ background-position:center;   
+
+}
+
+
+
+
+
+.section-footer h3{
+ display: block;
+ margin-top: -35px;
+ margin-left:45%;
+ margin-bottom: 22px;
+ text-shadow: 2px 2px 2px black;
+ 
+}
+
+
+.section-footer li{
+   
+   margin-left: 47%;
+   cursor: pointer;
+   text-decoration: none;
+ 
+ 
+}
+
+.section-footer a{
+ text-decoration: none;
+ 
+}
+
+.section-footer,
+a:link{
+ color: azure;
+ 
+}
+
+
+.section-footer,
+a:visited{
+ 
+ color: azure;
+}
